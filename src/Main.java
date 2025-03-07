@@ -44,7 +44,7 @@ public class Main {
 
             System.out.println("Ingrese el documento del comprador:");
             String documento = scanner.nextLine();
-                //               swtich mejorado
+                //               swtich
             Vehiculo vehiculo = switch (opcion) {
                 case 1 -> new Auto(codigo, marca, modelo, kilometraje, monto);
                 case 2 -> new Motocicleta(codigo, marca, modelo, kilometraje, monto);
