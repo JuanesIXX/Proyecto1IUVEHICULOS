@@ -1,5 +1,6 @@
+// src/Auto.java
 public class Auto extends Vehiculo {
-    public Auto(String codigo, String marca, int modelo, int kilometraje, double monto) {
-        super(codigo, marca, "Auto", modelo, kilometraje, monto);
+    public Auto(String id, String fabricante, int año, int km, double precio) {
+        super(id, fabricante, "Auto", año, km, precio);
     }
 }

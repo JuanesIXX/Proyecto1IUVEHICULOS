@@ -1,5 +1,6 @@
+// src/Motocicleta.java
 public class Motocicleta extends Vehiculo {
-    public Motocicleta(String codigo, String marca, int modelo, int kilometraje, double monto) {
-        super(codigo, marca, "Motocicleta", modelo, kilometraje, monto);
+    public Motocicleta(String id, String fabricante, int año, int km, double precio) {
+        super(id, fabricante, "Motocicleta", año, km, precio);
     }
 }
